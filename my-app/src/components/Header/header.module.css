@@ -1,0 +1,65 @@
+.header{
+    background: rgb(0, 0, 0);
+    width: 100%;
+}
+.header_wrap {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+.header_logo img {
+    width: 136px;
+    height: 65px;
+    /* position: fixed; */
+    margin-right: 50px;
+}
+
+.header_nav{
+    width: 1115px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 0 20px;
+    
+    
+    
+}
+
+.header_main button, .header_services button, .header_projects button, .header_contacts button, .header_ru button, .header_en button{   
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color:rgb(0, 0, 0);
+    
+} 
+.header_nav button:hover {
+    background-color: #6F3BED;
+}
+
+.header_language {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600px;
+
+}

@@ -1,6 +1,11 @@
+import Header from "./components/Header/header";
+
+
 function App() {
   return (
-    <div>Shop</div>
+    <div className="wrapper">
+      <Header/>
+    </div>
   );
 }
 
