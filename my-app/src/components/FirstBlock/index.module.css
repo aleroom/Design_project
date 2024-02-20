@@ -1,0 +1,16 @@
+
+.fBlock{
+    background: black;
+    width: 100%;
+    
+}
+
+.fBlock_right {
+    margin-right: auto;
+    
+}
+
+.fBlock_right img{
+    width: 716px;
+    height: 675px;
+}
