@@ -4,9 +4,18 @@ import style from '../FirstBlock/index.module.css';
 export default function FirstBlock() {
   return (
     <section className={style.fBlock}>
-        <div className={style.fBlock_wrapp}>
+        <div className={style.fBlock_wrap}>
             <div className={style.fBlock_left}>
-                <h1></h1>
+                <h1>Создадим <br/> 
+                  продающий дизайн <br/> 
+                  с  wow эффектом для вашего бизнеса</h1>
+
+                  <div className={style.fBlock_links}>
+                    <div className={style.logo_link}>
+                       <a href="">логотипы</a>
+                    </div>
+
+                  </div>
             </div>
 
             <div className={style.fBlock_right}>
@@ -14,6 +23,8 @@ export default function FirstBlock() {
             </div>
 
         </div>
+
+        
         
     </section>
   )
