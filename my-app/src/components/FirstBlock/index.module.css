@@ -2,13 +2,13 @@
 .fBlock{
     background: black;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
     
 }
 .fBlock_wrap {
     display: flex;
     margin: auto;
-    padding: 0px, 100px;
 }
 .fBlock_left {
    margin: auto 0 auto 50px ;
@@ -25,7 +25,7 @@
 }
 .fBlock_right {
     
-   
+   overflow: hidden;
 }
 
 .fBlock_right img{
