@@ -1,8 +1,9 @@
-.header{
+.header {
     background: rgb(0, 0, 0);
     width: 100%;
-    
+
 }
+
 .header_wrap {
     padding: 20px;
     display: flex;
@@ -13,6 +14,7 @@
 
 
 }
+
 .header_logo img {
     width: 136px;
     height: 65px;
@@ -20,31 +22,31 @@
     margin-right: 70px;
 }
 
-.header_nav{
+.header_nav {
     width: 1115px;
     height: 56px;
     display: flex;
     align-items: center;
     border: 1px solid #fff;
     border-radius: 50px;
-    margin-right: auto; 
-    
- }
+    margin-right: auto;
 
-.header_list{   
+}
+
+.header_list {
     font-size: 20px;
     font-family: Montserrat;
     font-weight: 600px;
     cursor: pointer;
     border: none;
     display: flex;
-    justify-content: start; 
-    list-style-type:  none;
-    
-} 
+    justify-content: start;
+    list-style-type: none;
 
-.header_item{    
-    padding: 10px ;
+}
+
+.header_item {
+    padding: 10px;
 }
 
 .header_item a {
@@ -53,9 +55,9 @@
     text-decoration: none;
     border-radius: 50px;
     padding: 10px 20px;
-    background-color:rgb(0, 0, 0);
-    text-decoration: none; 
-    
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+
 }
 
 .header_item a:hover, .header_language button:hover {
@@ -67,10 +69,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto; 
-    
-    list-style-type:  none;
-    
+    margin-left: auto;
+
+    list-style-type: none;
+
 }
 
 .header_language button {
@@ -79,7 +81,7 @@
     font-family: Montserrat;
     font-weight: 600px;
     border: none;
-    color:#fff;
+    color: #fff;
     cursor: pointer;
     border-radius: 50px;
     padding: 10px;

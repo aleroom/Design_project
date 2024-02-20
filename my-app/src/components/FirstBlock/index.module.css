@@ -1,40 +1,44 @@
 
-.fBlock{
+.fBlock {
     background: black;
     width: 100%;
-    
-    
+
+
 }
+
 .fBlock_wrap {
     display: flex;
     margin: auto;
     padding: 0px, 100px;
 }
-.fBlock_left {
-   margin: auto 0 auto 50px ;
 
-   
+.fBlock_left {
+    margin: auto 0 auto 50px;
+
+
 }
+
 .fBlock_left h1 {
     color: aliceblue;
     text-transform: uppercase;
     font-size: 58px;
     width: 700px;
     text-align: left;
-    
-}
-.fBlock_right {
-    
-   
+
 }
 
-.fBlock_right img{
+.fBlock_right {
+
+
+}
+
+.fBlock_right img {
     width: 716px;
     height: 675px;
-    
-    
+
+
 }
 
-.logo_link a{
+.logo_link a {
     color: #fff
 }
