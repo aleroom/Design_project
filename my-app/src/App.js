@@ -1,6 +1,4 @@
-import { Suspense } from "react";
-import { useTranslation } from "react-i18next";
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
 import FirstBlock from "./components/FirstBlock";
 import "./index.css"
 
@@ -11,7 +9,6 @@ function App() {
       <Header/>
       <FirstBlock/>
 
-      
     </div>
   );
 }
