@@ -11,10 +11,9 @@
     margin: auto;
 }
 .fBlock_left {
-   margin: auto 0 auto 50px ;
-
-   
+   margin: auto 0 auto 50px ; 
 }
+
 .fBlock_left h1 {
     color: aliceblue;
     text-transform: uppercase;
@@ -22,6 +21,10 @@
     width: 700px;
     text-align: left;
     
+}
+
+.fBlock_left span {
+    color: #CBFF77;
 }
 .fBlock_right {
     
@@ -34,7 +37,37 @@
     
     
 }
+.fBlock_links{
+    display: flex;
+    flex-direction: row;
+}
+.logo_link {
+    margin:  20px 20px 0 0;
+}
+
 
 .logo_link a{
-    color: #fff
+    color: #CBFF77;
+    text-transform: uppercase;
+    font-size: 20px;    
+}
+
+.FB_buttons {
+    margin-top: 70px;
+    
+}
+.FB_buttons button {
+    width: 360px;
+    margin-right: 20px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #CBFF77;
+    border-radius: 50px;
+    
+}
+
+.FB_offer p, .FB_profile p {
+    font-size: 20px;
+    font-weight: bold;
+    
 }
