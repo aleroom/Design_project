@@ -1,6 +1,6 @@
 import Header from "./components/Header/Header";
 import FirstBlock from "./components/FirstBlock";
-import LogoPage from "./components/LogoPage/logoPage";
+import LogoPage from "./components/LogoPage/LogoPage";
 import "./index.css"
 
 

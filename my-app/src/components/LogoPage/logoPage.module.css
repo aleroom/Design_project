@@ -1,15 +1,37 @@
 .logoPage{
-    background: #000000;
+    background: black;
     width: 100%;
     display: flex;
     justify-content: center;
-
+    
 }
-.logoPage_descr {
+.logoPage_wrap {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.logoPage_left {
+    display: flex;
+    margin: 0 auto; 
+    justify-content: space-between;
+}
+.logoPage_title h2 {
     color: #CBFF77;
     font-size: 45px;
+    margin-bottom: 20px;
+}
+.logoPage_title span {
+    color:#fff;
+    font-size: 70px;
 }
 .logoPage_title p {
     color: #fff;
-    font-size: 70px;
+    font-size: 22px;
+    width: 546px;
+}
+
+
+.logoPage_img img {
+    width: 384px;
+    height: 682px;
 }
