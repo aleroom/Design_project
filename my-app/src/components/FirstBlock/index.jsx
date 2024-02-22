@@ -17,25 +17,25 @@ export default function FirstBlock() {
 
                   <div className={style.fBlock_links}>
                     <div className={style.logo_link}>
-                       <a href="">логотипы</a>
+                       <a href="">{firstBlockLocales[locale].logo}</a>
                     </div>
 
                     <div className={style.logo_link}>
-                       <a href="">сайты</a>
-                    </div>
+                       <a href="">{firstBlockLocales[locale].sities}</a>
+                    </div>    
 
                     <div className={style.logo_link}>
-                       <a href="">презентации</a>
+                       <a href="">{firstBlockLocales[locale].pres}</a>
                     </div>
 
                   </div>
 
                   <div className={style.FB_buttons}>
                     <button className={style.FB_offer}>
-                      <p>Cпециальное предложение</p> 
+                      <p>{firstBlockLocales[locale].textOffer}</p>   
                     </button>
                     <button className={style.FB_profile}>
-                      <p>Смотреть профиль</p> 
+                      <p>{firstBlockLocales[locale].textProfile}</p>    
                     </button>
                   </div>
 

@@ -1,0 +1,15 @@
+.logoPage{
+    background: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.logoPage_descr {
+    color: #CBFF77;
+    font-size: 45px;
+}
+.logoPage_title p {
+    color: #fff;
+    font-size: 70px;
+}
