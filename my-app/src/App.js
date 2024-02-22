@@ -1,7 +1,8 @@
 import Header from "./components/Header/Header";
 import FirstBlock from "./components/FirstBlock";
-import LogoPage from "./components/LogoPage/LogoPage";
-import "./index.css"
+import LogoPage from "./components/LogoPage/logoPage";
+import "./index.css";
+import Slider from "./components/Slider/Slider.jsx";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <FirstBlock/>
       <LogoPage/>
+      <Slider/>
 
     </div>
   );

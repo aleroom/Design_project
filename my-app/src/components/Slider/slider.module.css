@@ -1,0 +1,35 @@
+.slider {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+.slider img{
+    width: 500px;
+    height: 500px;
+}
+.slider_btn button{ 
+    
+    
+    margin:  0 0 20px 0;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #CBFF77;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.slider_content{
+   
+    
+    padding: 20px;
+    cursor: pointer;
+    
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.slider_content h3 {
+    color: aliceblue;
+}

@@ -12,8 +12,9 @@
 }
 .logoPage_left {
     display: flex;
-    margin: 0 auto; 
-    justify-content: space-between;
+    margin: 0 40px 0 0; 
+    flex-direction: column;
+    padding: auto;
 }
 .logoPage_title h2 {
     color: #CBFF77;
@@ -28,10 +29,35 @@
     color: #fff;
     font-size: 22px;
     width: 546px;
+    margin-bottom: 80px;
 }
-
+.logoPage_btn button{
+    width: 257px;
+    margin-right: 20px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #CBFF77;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+ }
 
 .logoPage_img img {
     width: 384px;
     height: 682px;
 }
+
+.logoPage_image img {
+    width: 384px;
+    height: 682px;
+}
+
+.logoPage_right {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
